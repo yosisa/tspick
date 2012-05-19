@@ -7,7 +7,7 @@
 #define false 0
 
 #define PACKET_LENGTH 188
-#define SUFFIX "_tss"
+#define SUFFIX "_tspick"
 
 typedef unsigned char byte;
 
@@ -64,7 +64,7 @@ int main(int argc, char** argv) {
       strcat(outfile, index);
     }
   } else {
-    printf("usage: tss source.ts [dest]\n");
+    printf("usage: tspick source.ts [dest]\n");
     exit(EXIT_FAILURE);
   }
 
