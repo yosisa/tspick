@@ -2,8 +2,8 @@ CC     = gcc
 CFLAGS = -Wall -O2 -g -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
 LDLIBS =
 
-TARGET = tss
-OBJS   = tss.o
+TARGET = tspick
+OBJS   = tspick.o
 
 .SUFFIXES: .c .o
 
