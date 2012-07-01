@@ -112,7 +112,7 @@ int main(int argc, char** argv) {
             exit(EXIT_FAILURE);
         }
     } else {
-        if ((out = fopen(output_filename, "rb")) == NULL) {
+        if ((out = fopen(output_filename, "wb")) == NULL) {
             fprintf(stderr, "ERROR: cannot open output file: %s\n", output_filename);
             exit(EXIT_FAILURE);
         }
